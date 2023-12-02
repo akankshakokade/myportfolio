@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar/navbar";
 import Intro from "./components/Intro/intro";
 import Skills from "./components/Skills/Skills";
 import Works from "./components/Works/works";
-// import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/footer";
 function App() {
   return (
     <div className="App">
@@ -11,9 +12,9 @@ function App() {
       <Intro />
       <Skills />
       <Works />
-      {/* <Contact/> */}
+      <Contact />
+      <Footer/>
     </div>
   );
 }
- /**---- */
 export default App;
